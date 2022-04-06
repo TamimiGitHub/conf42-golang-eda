@@ -1,0 +1,22 @@
+.DS_STORE
+
+.vscode
+
+# Removing the commented out includes
+# lib/*/bin*
+# lib/*/lib*
+# lib/*/include*
+
+test/reports
+
+test/sempclient/action/*
+!test/sempclient/action/go.mod
+!test/sempclient/action/go.sum
+
+test/sempclient/config/*
+!test/sempclient/config/go.mod
+!test/sempclient/config/go.sum
+
+test/sempclient/monitor/*
+!test/sempclient/monitor/go.mod
+!test/sempclient/monitor/go.sum

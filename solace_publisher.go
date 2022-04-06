@@ -80,7 +80,7 @@ func main() {
 	// Block until an OS interrupt signal is received.
 	<-c
 
-	// Terminate the Direct Receiver
+	// Terminate the Direct Publisher
 	directPublisher.Terminate(1 * time.Second)
 	fmt.Println("\nDirect Publisher Terminated? ", directPublisher.IsTerminated())
 	// Disconnect the Message Service
